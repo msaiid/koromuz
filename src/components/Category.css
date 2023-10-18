@@ -1,0 +1,16 @@
+.category__card__icon{
+
+    background: #ECEDF2
+
+}
+
+ .category__card{
+    width: 410px !important;
+    height: 110px !important;
+}
+
+@media (max-width:375px){
+    .category__card{
+        width: 100%;
+    }
+}
