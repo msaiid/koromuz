@@ -1,0 +1,29 @@
+.blob{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px #01213A12;
+    display: grid;
+    place-content: center;
+    margin-bottom: 20px;
+}
+
+.blob:hover{
+    background-color: #4182E8;
+}
+
+.card__about h4{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+}
+
+.card__about p{
+    font-size: 14px;
+}
+
+@media (max-width:575px){
+    .smartphone{
+        width: 100%;
+    }
+}
